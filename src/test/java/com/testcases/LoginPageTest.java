@@ -63,7 +63,7 @@ false
 	@Test(dataProvider="getLoginTestData")
 	public void verify_Login_form(String username, String password) throws Exception{
 		loginPage.verify_Login_form(username, password);
-		Reporter.log("User Loggedin Successfully & DashBoard Page Opened", true);
+		Reporter.log("User Lggedin Successfully & DashBoard Page Opened", true);
 	}
 	*/				
 
