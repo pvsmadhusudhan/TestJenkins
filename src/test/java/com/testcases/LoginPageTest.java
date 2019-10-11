@@ -36,11 +36,9 @@ public class LoginPageTest extends BasePage {
 		String title = loginPage.validate_LoginPage_Title();
 		Assert.assertEquals(title, "login");
 		Reporter.log("LoginPage Title Verified", true);
-		
-		
-		System.out.println("Test finished");
+		Assert.assertTrue(false);
 	}
-
+false
 	@Test(dependsOnMethods="LoginPage_Title_Test")
 	public void Login_Test() throws Exception{
 		dashBoardPage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
