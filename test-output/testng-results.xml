@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="23" total="24" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[User added]]>
+    </line>
+    <line>
+      <![CDATA[Owner can access the audit]]>
+    </line>
+    <line>
+      <![CDATA[Owner can edit the audit]]>
+    </line>
+    <line>
+      <![CDATA[Owner can rename the audit]]>
+    </line>
+    <line>
+      <![CDATA[Owner can change the audit settings]]>
+    </line>
+    <line>
+      <![CDATA[Owner can add the users]]>
+    </line>
+    <line>
+      <![CDATA[Alert message is: Are you sure you want to delete this User?]]>
+    </line>
+    <line>
+      <![CDATA[Owner can delete the user]]>
+    </line>
+    <line>
+      <![CDATA[Owner can delete the audit]]>
+    </line>
+    <line>
+      <![CDATA[Build Owner user permissions are functional]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="107231" started-at="2019-10-01T05:20:20Z" finished-at="2019-10-01T05:22:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="107231" started-at="2019-10-01T05:20:20Z" finished-at="2019-10-01T05:22:07Z">
+      <class name="com.testcases.BuildPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.BuildPageTest@5f341870]" name="setUp" is-config="true" duration-ms="33656" started-at="2019-10-01T05:20:20Z" finished-at="2019-10-01T05:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_Build_Owner_user_permissions_Test()[pri:0, instance:com.testcases.BuildPageTest@5f341870]" name="verify_Build_Owner_user_permissions_Test" duration-ms="72779" started-at="2019-10-01T05:20:54Z" finished-at="2019-10-01T05:22:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User added]]>
+            </line>
+            <line>
+              <![CDATA[Owner can access the audit]]>
+            </line>
+            <line>
+              <![CDATA[Owner can edit the audit]]>
+            </line>
+            <line>
+              <![CDATA[Owner can rename the audit]]>
+            </line>
+            <line>
+              <![CDATA[Owner can change the audit settings]]>
+            </line>
+            <line>
+              <![CDATA[Owner can add the users]]>
+            </line>
+            <line>
+              <![CDATA[Alert message is: Are you sure you want to delete this User?]]>
+            </line>
+            <line>
+              <![CDATA[Owner can delete the user]]>
+            </line>
+            <line>
+              <![CDATA[Owner can delete the audit]]>
+            </line>
+            <line>
+              <![CDATA[Build Owner user permissions are functional]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Build_Owner_user_permissions_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.BuildPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="774" started-at="2019-10-01T05:22:06Z" finished-at="2019-10-01T05:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.BuildPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

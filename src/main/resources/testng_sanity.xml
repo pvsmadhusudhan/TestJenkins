@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Audits Application Test Automation Test Suite">
+	<test name="Audits App Test Cases">
+		<classes>
+			<class name="com.testcases.LoginPageTest"></class>
+			<class name="com.testcases.BuildPageTest"></class>
+			<class name="com.testcases.AuditPageTest"></class>
+			<class name="com.testcases.AnalysePageTest"></class>
+			<class name="com.testcases.ActionsPageTest"></class>
+			<class name="com.testcases.DashBoardPageTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Jenkins Test Suite" parallel="none">
+
+	<listeners>
+		<listener class-name="Analyzer.MyTransformer" />
+		<listener class-name="com.Listeners.WebEventListener" />
+	</listeners>
+
+	<test name="Test Jenkins Test Cases" preserve-order="true">
+		<classes>
+			<class name="com.testcases.LoginPageTest"></class>
+			<!-- <class name="com.testcases.DashBoardPageTest"></class> -->
+		</classes>
+	</test>
+</suite>
