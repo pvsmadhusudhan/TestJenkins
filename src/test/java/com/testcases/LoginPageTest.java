@@ -22,7 +22,7 @@ public class LoginPageTest extends BasePage {
 	@BeforeMethod
 	public void setUp() {
 		initialization();
-		loginPage = new LoginPage();
+		loginPage = new LoginPage(); // Valid code for core engine
 	}
 	
 	@AfterMethod
