@@ -24,6 +24,7 @@ public class LoginPageTest extends BasePage {
 		initialization();
 		loginPage = new LoginPage(); // Valid code for core engine
 	}
+	kkjkj
 	
 	@AfterMethod
 	public void tearDown() {
